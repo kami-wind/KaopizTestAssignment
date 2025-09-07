@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+
+# Rider
+.idea/
+
+# VSCode
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# NuGet
+*.nupkg
+
+# Logs
+*.log
+
+# EF migrations local snapshots (optional)
+**/Migrations/**/ModelSnapshot.cs
+
+# Secrets / local settings
+appsettings.Development.json
+appsettings.*.Local.json
+secrets.json
